@@ -7,7 +7,7 @@ Before running the script, ensure you have Node.js installed on your system. You
 Clone this repository to your local machine:
 bash
 Copy code
-git clone https://github.com/yourusername/heart-rate-statistics.git
+git clone git@github.com:kiran1503/cloudrayAssesment.git
 Navigate to the project directory:
 
 Copy code
@@ -16,8 +16,6 @@ Usage
 Place your heart rate data in a JSON file named heartRatesData.json in the root directory of the project. Ensure the structure of the JSON file matches the expected format (e.g., { "timestamps": { "startTime": "YYYY-MM-DDTHH:MM:SSZ", "endTime": "YYYY-MM-DDTHH:MM:SSZ" }, "beatsPerMinute": 70 }).
 
 Run the script:
-
-sql
 Copy code
 npm start
 Once the script finishes execution, the calculated statistics will be saved to a file named output.json in the root directory.
